@@ -1,0 +1,24 @@
+{
+  "name": "create-postgres-database",
+  "version": "1.0.2",
+  "scripts": {
+    "build": "tsc index.ts"
+  },
+  "keywords": [
+    "database",
+    "postgres",
+    "create",
+    "automatically"
+  ],
+  "author": "",
+  "license": "MIT",
+  "description": "Checks if a PostgresQL database exists and creates one if it does not - similar to how mongodb does it",
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "tsc": "^2.0.4",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "pg": "^8.12.0"
+  }
+}
