@@ -4,6 +4,9 @@ If it exists - nothing happens
 
 If it does not - it creates it and closes the connection.
 
+repo: https://github.com/notnikola1/create-postgres-database
+installation: npm i create-postgres-database
+
 
 ```
 Example:
